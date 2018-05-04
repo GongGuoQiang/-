@@ -1,0 +1,82 @@
+/* pages/book/book.wxss */
+/* .ar_coverpath image{
+  width: 100%;
+} */
+.ar_coverpath{
+  height: 400rpx;
+}
+.ar_picker{
+  font-size: 30rpx;
+  background: #e5e5e5;
+  display: block;
+  width: 100%;
+}
+.ar_picker_wrap{
+    background: #fff;
+    margin: 30rpx;
+    border-radius: 20rpx;
+    padding: 20rpx;
+    line-height: 50rpx;
+}
+.ar_cont>text{
+    font-size: 32rpx;
+    font-weight: bold;
+    margin: 30rpx 0 30rpx 60rpx;
+}   
+.ar_cont{
+ width: 100%;
+
+}
+.ar_cont image{
+  width:38rpx;
+  height: 38rpx; 
+  margin-right: 20rpx;
+}
+.ar_data_time{
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  padding: 30rpx 0;
+ 
+}
+.ar_data{
+   display: flex;
+   box-sizing: border-box;
+   flex-direction: row;
+   font-size: 32rpx;
+}
+
+.ar_time{
+  float: left;
+  display: flex;
+  flex-direction: row;
+  font-size: 32rpx;
+}
+.picker{
+  border: 1px solid #dcdcdc;
+  width: 220rpx;
+  padding-left: 10rpx;
+  border-radius: 10rpx;
+}
+.ar_cont_h1{
+  width: 100%;
+ text-indent: 60rpx;
+  font-size: 30rpx;
+}
+.input_msg{
+    border:1px solid #ddd; 
+    border-radius:8rpx;
+    padding:0rpx 10rpx;
+    margin: 20rpx 60rpx;
+    font-size: 30rpx;
+}
+.ar_book{
+    background:#d24a58;
+    font-size: 32rpx;
+    color:#fff;
+    border-radius: 0rpx;
+    margin:40rpx 0rpx 10rpx;
+    margin: 20rpx 60rpx;
+}

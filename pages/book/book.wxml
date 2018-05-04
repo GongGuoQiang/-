@@ -1,0 +1,46 @@
+<!--pages/book/book.wxml-->
+<view class='container'>
+  <view class='ar_coverpath'>
+    <image src='../../images/banner_02.png' mode="aspectFill"></image>
+  </view>
+
+  <view class='ar_picker'>
+    <view class='ar_picker_wrap'>
+       <picker bindchange="bindAddrPickerChange" value="{{addrIndex}}" range="{{addrArray}}">
+          <view>
+              <text>{{addrArray[addrIndex]}}</text>
+          </view>
+        </picker>
+    </view>
+  </view>
+  <!-- 服务时间 -->
+  <view class='ar_cont'>
+    <text>服务时间</text>
+    <view class='ar_data_time'>
+       <view class='ar_data'>
+          <image src='../../images/date.png'></image>
+            <picker mode="date" value="{{date}}" start="2015-09-01" end="2020-09-01" bindchange="bindDateChange">
+              <view class="picker">
+                {{date}}
+              </view>
+            </picker>
+       </view>
+       <view class='ar_time'>
+        <image src='../../images/time.png'></image>
+          <picker mode="time" value="{{time}}" placeholder="选择时间" start="09:01" end="21:01" bindchange="bindTimeChange">
+            <view class="picker">
+              {{time}}
+            </view>
+        </picker>
+      </view>
+      </view>
+    </view>
+
+
+   <text class="ar_cont_h1">留言信息</text>
+   <input type="text" placeholder="输入信息" class="input_msg" placeholder-style="font-family:'微软雅黑'"/>
+  <button class="ar_book" bindtap="bindToastTap">确认预定</button>
+    <toast hidden="{{bookToastHidden}}"  bindchange="hideToast">
+    预定成功
+    </toast>
+</view>

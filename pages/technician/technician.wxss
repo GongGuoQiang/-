@@ -1,0 +1,58 @@
+/* pages/technician/technician.wxss */
+.ar_picker{
+    width:100%;
+    font-size:30rpx;
+    color:#000;
+    background: #efeff4;
+    margin:0;
+    padding:10rpx 0rpx;
+}
+.ar_picker .ar_picker_wrap{
+    width: 670rpx;
+    /* background: #fff url(../../images/arrow.png) no-repeat right center; */
+    background-size:25rpx 14rpx;
+    background-position:650rpx;
+    border-radius:20rpx;
+    padding:10rpx 30rpx;
+    margin:10rpx auto;
+    border:1px solid #ddd;
+}
+.nav_section_items{
+  display: flex;
+  flex-direction: row;
+
+}
+.section_image{
+  width: 160rpx;
+  height: 160rpx;
+}
+.section_image image{
+  width: 100%;
+  height: 100%;
+}
+.section_cont{
+  margin-left: 30rpx;
+  font-size: 30rpx;
+}
+.section_sub{
+  line-height: 60rpx;
+}
+.section_cont_price{
+   color: red;
+   margin-left: 20rpx;
+}
+.nav_section_items{
+  padding: 30rpx;
+  border-bottom: 1px solid #dcdcdc;
+}
+.nav_section_items:active{
+  background: #ddd;
+}
+.section_book{
+  font-size: 30rpx;
+}
+.message{
+  font-size: 28rpx;
+  color: #888;
+  margin-top: 10rpx;
+}
